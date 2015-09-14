@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Manage Products"/>
+    
+        <item
+        android:id="@+id/action_settings2"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="View Customers"/>
+        
+            <item
+        android:id="@+id/action_settings3"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="Sells and Service"/>
+
+</menu>

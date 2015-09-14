@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="289dp"
+        android:layout_height="185dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@raw/logo" />
+
+         <Button
+             android:id="@+id/btn_register"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="register"
+             android:text="Cash Register" />
+         
+         <Button
+             android:id="@+id/btn_inventory"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="inventory"
+             android:text="Inventory" />
+
+         <Button
+             android:id="@+id/btn_customers"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:onClick="customers"
+             android:text="Customers" />
+    
+</LinearLayout>
